@@ -1,0 +1,28 @@
+{
+    "name": "f6/fx-emp",
+    "type": "typo3-cms-extension",
+    "description": "",
+    "authors": [
+        {
+            "name": "shovik",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "typo3/cms-core": "^8.7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "F6\\FxEmp\\": "Classes"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "F6\\FxEmp\\Tests\\": "Tests"
+        }
+    },
+    "replace": {
+        "fx_emp": "self.version",
+        "typo3-ter/fx-emp": "self.version"
+    }
+}

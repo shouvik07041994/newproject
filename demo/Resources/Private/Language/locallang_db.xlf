@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2019-02-06T08:09:04Z" product-name="demo">
+		<header/>
+		<body>
+			<trans-unit id="tx_demo_domain_model_content">
+				<source>Content</source>
+			</trans-unit>
+			<trans-unit id="tx_demo_domain_model_content.title">
+				<source>Title</source>
+			</trans-unit>
+			<trans-unit id="tx_demo_domain_model_content.subtitle">
+				<source>Subtitle</source>
+			</trans-unit>
+			<trans-unit id="tx_demo_content123.name">
+				<source>contenttype</source>
+			</trans-unit>
+			<trans-unit id="tx_demo_content123.description">
+				<source></source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
