@@ -1,0 +1,28 @@
+{
+    "name": "f6/fxspeaker",
+    "type": "typo3-cms-extension",
+    "description": "",
+    "authors": [
+        {
+            "name": "shouvik",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "typo3/cms-core": "^8.7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "F6\\Fxspeaker\\": "Classes"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "F6\\Fxspeaker\\Tests\\": "Tests"
+        }
+    },
+    "replace": {
+        "fxspeaker": "self.version",
+        "typo3-ter/fxspeaker": "self.version"
+    }
+}

@@ -1,0 +1,52 @@
+<html xmlns:f="https://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+	<f:layout name="Default" />
+
+	This Template is responsible for creating a table of domain objects.
+
+	If you modify this template, do not forget to change the overwrite settings
+	in /Configuration/ExtensionBuilder/settings.yaml:
+	  Resources:
+		Private:
+		  Templates:
+			List.html: keep
+
+	Otherwise your changes will be overwritten the next time you save the extension in the extension builder
+
+	<f:section name="content">
+			
+		<!--<h1>Listing for Speaker</h1>-->
+
+		<f:flashMessages />
+
+		<!--<table  class="tx_fxspeaker" >
+			<tr>
+				<th><f:translate key="tx_fxspeaker_domain_model_speaker.speakername" /></th>
+				<th><f:translate key="tx_fxspeaker_domain_model_speaker.speakerimage" /></th>
+				<th><f:translate key="tx_fxspeaker_domain_model_speaker.speakerdes" /></th>
+				<th><f:translate key="tx_fxspeaker_domain_model_speaker.flag" /></th>
+				<th> </th>
+				<th> </th>
+			</tr>-->
+
+			<f:for each="{speakers}" as="speaker">
+				<header><h2 class="">
+
+				{speaker.speakername}
+			</h2></header><div class="ce-textpic ce-left ce-intext"><div class="ce-gallery" data-ce-columns="1" data-ce-images="1"><div class="ce-row"><div class="ce-column"><figure class="image"><f:image src="{speaker.speakerimage.uid}" alt="" treatIdAsReference="1" /></figure>
+			</div></div></div> <f:image src="{speaker.flag.uid}" alt="" treatIdAsReference="1" /><div class="ce-bodytext"> <f:format.html>{speaker.speakerdes}</f:format.html>
+			</div></div>
+				<!--<tr>
+					<td><f:link.action action="show" arguments="{speaker : speaker}"> {speaker.speakername}</f:link.action></td>
+					<td><f:link.action action="show" arguments="{speaker : speaker}"> <f:image src="{speaker.speakerimage.uid}" alt="" treatIdAsReference="1" /></f:link.action></td>
+					<td><f:format.html>{speaker.speakerdes}</f:format.html></td>
+					<td><f:link.action action="show" arguments="{speaker : speaker}"> <f:image src="{speaker.flag.uid}" alt="" treatIdAsReference="1" /></f:link.action></td>
+				<!--
+					<td><f:link.action action="edit" arguments="{speaker : speaker}">Edit</f:link.action></td>
+					<td><f:link.action action="delete" arguments="{speaker : speaker}">Delete</f:link.action></td>-->
+				<!--</tr>-->
+			</f:for>
+		<!--</table>-->
+
+		<!--<f:link.action action="new">New Speaker</f:link.action>-->
+	</f:section>
+</html>

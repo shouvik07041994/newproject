@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2019-02-08T09:54:25Z" product-name="fxspeaker">
+		<header/>
+		<body>
+			<trans-unit id="tx_fxspeaker_domain_model_speaker">
+				<source>Speaker</source>
+			</trans-unit>
+			<trans-unit id="tx_fxspeaker_domain_model_speaker.speakername">
+				<source>Speakername</source>
+			</trans-unit>
+			<trans-unit id="tx_fxspeaker_domain_model_speaker.speakerimage">
+				<source>Speakerimage</source>
+			</trans-unit>
+			<trans-unit id="tx_fxspeaker_domain_model_speaker.speakerdes">
+				<source>Speakerdes</source>
+			</trans-unit>
+			<trans-unit id="tx_fxspeaker_domain_model_speaker.flag">
+				<source>Flag</source>
+			</trans-unit>
+			<trans-unit id="tx_fxspeaker_fxspeakermng.name">
+				<source>speakermng</source>
+			</trans-unit>
+			<trans-unit id="tx_fxspeaker_fxspeakermng.description">
+				<source></source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

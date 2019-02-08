@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2019-02-08T09:54:25Z" product-name="fxspeaker">
+		<header/>
+		<body>
+			<trans-unit id="speakername.description">
+				<source>speakername</source>
+			</trans-unit>
+			<trans-unit id="speakerimage.description">
+				<source>speakerimage</source>
+			</trans-unit>
+			<trans-unit id="speakerdes.description">
+				<source>speakerdes</source>
+			</trans-unit>
+			<trans-unit id="flag.description">
+				<source>flag</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>
