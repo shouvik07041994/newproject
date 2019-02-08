@@ -1,0 +1,28 @@
+{
+    "name": "f6/fxteam",
+    "type": "typo3-cms-extension",
+    "description": "",
+    "authors": [
+        {
+            "name": "sh",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "typo3/cms-core": "^8.7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "F6\\Fxteam\\": "Classes"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "F6\\Fxteam\\Tests\\": "Tests"
+        }
+    },
+    "replace": {
+        "fxteam": "self.version",
+        "typo3-ter/fxteam": "self.version"
+    }
+}
